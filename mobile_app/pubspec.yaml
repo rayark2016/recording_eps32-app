@@ -1,0 +1,40 @@
+name: urination_recorder
+description: ESP32 Pico 藍牙排尿記錄系統手機應用程式
+publish_to: 'none'
+version: 1.0.0+30
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 藍牙通訊 (使用與參考專案相同版本)
+  flutter_blue_plus: ^1.31.0
+
+  # 權限管理
+  permission_handler: ^11.0.1
+
+  # 本地儲存
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.4
+
+  # 音訊播放
+  audioplayers: ^6.5.1
+
+  # JSON 處理 (內建於 dart:convert)
+
+  # 日期時間格式化
+  intl: ^0.20.2
+
+  # UI 元件
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

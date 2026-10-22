@@ -1,0 +1,4 @@
+device_code,hardware_uid,ble_name,ble_address,firmware_version,sd_card_id,owner,location,status,last_health_check,notes
+PR-001,,,Pico PR-001,,,,unassigned,,
+PR-002,,,Pico PR-002,,,,unassigned,,
+PR-003,,,Pico PR-003,,,,unassigned,,
