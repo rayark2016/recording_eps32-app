@@ -30,8 +30,6 @@ mobile_app/windows/flutter/ephemeral/
 __pycache__/
 *.py[cod]
 
-# Local device inventory and execution history: use the committed template instead.
-docs/device-registry.csv
+# Local execution history.
 Provision_ESP32_Recorder_3.ipynb
 notebooks/Provision_ESP32_Recorder.ipynb
-docs/*.lock
