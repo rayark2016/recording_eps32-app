@@ -29,6 +29,7 @@ mobile_app/windows/flutter/ephemeral/
 # Python generated files
 __pycache__/
 *.py[cod]
+*.csv.lock
 
 # Local execution history.
 Provision_ESP32_Recorder_3.ipynb
